@@ -1,44 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sobre Mim</title>
-    <meta name="description" content="Perfil pessoal da Jane Doe, uma desenvolvedora web apaixonada por tecnologia e buscando oferecer serviços de alta qualidade. Conheça meus projetos e serviços.">
-    <meta name="keywords" content="Jane Doe, web developer, front-end, back-end, projetos web">
-    <meta name="author" content="Jane Doe">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="CSS/style.css" rel="stylesheet">
-</head>
-
-<body>
-    <header class="bg-dark text-light py-3">
-        <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#">
-                <img src="imagens/logo.png" alt="meu-projeto" class="img-logo" style="width: 100px;">
-            </a>
-            <div class="container-fluid">
-                <a href="index.html">Home</a>
-                <a href="sobre.html">Sobre</a>
-                <div class="dropdown">
-                    <button class="dropbtn">Projetos
-                        <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="projetos.html#frontend">Front-end</a>
-                        <a href="projetos.html#backend">Back-end</a>
-                        <a href="projetos.html#uxui">UX/UI</a>
-                    </div>
-                </div>
-                <a href="servicos.html">Serviços</a>
-                <a href="contactos.html">Contactos</a>
-                <a href="pesquisa.html" style="float:right;"><i class="fa fa-search"></i></a>
-                <a href="login.php" style="float:right;"><i class="fa fa-user"></i></a>
-            </div>
-        </nav>
-    </header>
+<?php 
+ include "header.php";
+?>
 
     <section class="mb-5">
         <h2 class="mb-4">Sobre mim</h2>
@@ -202,17 +164,8 @@
                                     </div>
                                 </section>
             
-       <footer class="bg-dark text-light py-3">
-            <div class="container text-center">
-               <p>&copy; Jane Doe 2024 | Web Developer | <a href="politica-privacidade.html" class="text-light">Política de Privacidade</a></p>
-            <div class="mt-3">
-               <a href="https://www.facebook.com/janedoe" class="text-light mx-2" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
-               <a href="https://twitter.com/janedoe" class="text-light mx-2" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
-               <a href="https://linkedin.com/in/janedoe" class="text-light mx-2" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
-               <a href="https://instagram.com/janedoe" class="text-light mx-2" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
-                </div>
-            </div>
-        </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<?php
+    include "footer.php";
+?>
     </body>
 </html>

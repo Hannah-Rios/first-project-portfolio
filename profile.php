@@ -11,6 +11,7 @@ if (!isset($_SESSION["user_id"])) {
 }
 
 include "db.php";
+include "header.php";
 
 // Busque os dados do utilizador
 $stmt = $pdo->prepare("SELECT username, email, user_type, profile_pic FROM users WHERE id = ?");
@@ -23,19 +24,6 @@ if (!$user) {
 }
 ?>
 
-<!doctype html>
-<html lang="pt">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil</title>
-    <meta name="description" content="Página de perfil do usuário.">
-    <meta name="keywords" content="Jane Doe, web developer, front-end, back-end, projetos web">
-    <meta name="author" content="Jane Doe">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="CSS/style.css" rel="stylesheet">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet');
 
@@ -134,6 +122,10 @@ if (!$user) {
             <input type="submit" class="logout-button" value="Logout">
         </form>
     </div>
-</body>
 
+<?php 
+    include "footer.php";
+?>
+
+    </body>
 </html>
