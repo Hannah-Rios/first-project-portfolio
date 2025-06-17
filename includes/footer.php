@@ -1,6 +1,6 @@
         <footer class="bg-dark text-light py-3">
             <div class="container text-center">
-                <p>&copy; Hannah Rios 2025 | Web Developer | <a href="politica-privacidade.html" class="text-light">Política de Privacidade</a></p>
+                <p>&copy; Hannah Rios 2025 | Web Developer | <a href="politica-privacidade.php" class="text-light">Política de Privacidade</a></p>
                 <div class="mt-3">
                     <a href="https://twitter.com/HannahRios_" class="text-light mx-2" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
                     <a href="https://linkedin.com/in/hzrs2024" class="text-light mx-2" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>

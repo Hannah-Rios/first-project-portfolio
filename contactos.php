@@ -1,5 +1,5 @@
 <?php
-    include "header.php";
+    include "includes/header.php";
 ?>
 
         <main class="container my-5">
@@ -127,7 +127,7 @@
     </main>
 
 <?php 
-    include "footer.php";
+    include "includes/footer.php";
 ?>
 
     <script src="JS/script.js"></script>

@@ -1,6 +1,4 @@
-<?php
- include "header.php";
- ?>
+<?php include "includes/header.php"; ?>
 
     <main class="container my-5">
 
@@ -13,7 +11,7 @@
     </section>
 
     <section id="simulacao-orcamento">
-        <h2>Faça sua simulação de orçamento</h2>
+        <h2>Faça uma simulação de orçamento</h2>
         <form id="form-simulacao">
             <label for="nome">Nome Completo:</label>
             <input type="text" id="nome" name="nome" required>
@@ -61,9 +59,7 @@
      </section>
     </main>
 
-<?php
-    include "footer.php"
-?>
+<?php include "includes/footer.php" ?>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
 <script src="JS/script.js"></script>

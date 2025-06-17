@@ -1,5 +1,5 @@
 <?php 
-    include "header.php"; 
+    include "includes/header.php"; 
 ?>
 
         <main class="container my-5">
@@ -89,11 +89,11 @@
                     </div>
                     <div class="col-md-9">
                         <ol class="list-unstyled">
-                            <li class="mb-3"><strong>Web Developer Sênior:</strong> Lidero projetos complexos para clientes de alto perfil.</li>
+                            <li class="mb-3"><strong>Creator Moderator:</strong> Crio conteúdos sobre desenvolvimento web nas redes sociais.</li>
                             <li class="mb-3"><strong>Freelancer de Desenvolvimento Web:</strong> Trabalhei com diversos clientes, desde pequenas empresas até startups, entregando soluções personalizadas.</li>
-                            <li class="mb-3"><strong>Estagiário de desenvolvimento:</strong> Iniciei a minha experiência profissional numa empresa de tecnologia.</li>
+                            <li class="mb-3"><strong>Web Developer Júnior:</strong> Iniciei a minha experiência profissional numa empresa de web development.</li>
                         </ol>
-                        <a href="docs/cv.pdf" download class="btn btn-primary">CV Download</a>
+                        <a href="uploads/HannahSilva-Curriculo.pdf" download class="btn btn-primary">CV Download</a>
                     </div>
                 </div>
             </section>
@@ -108,10 +108,6 @@
                     <div class="col-md-6 mb-4">
                         <h3>Design de UX/UI</h3>
                         <p>Crio designs intuitivos e experiências de usuário envolventes.</p>
-                    </div>
-                    <div class="col-md-6 mb-4">
-                        <h3>Desenvolvimento Mobile</h3>
-                        <p>Desenvolvo aplicações móveis nativas e multiplataforma.</p>
                     </div>
                     <div class="col-md-6 mb-4">
                         <h3>Integração back-end</h3>
@@ -157,7 +153,7 @@
                 <h2 class="mb-4">Vamos conversar</h2>
                 <div class="row text-center">
                     <div class="col-md-4">
-                        <h4>Envie uma mensagem</h4>
+                        <h4>Envie-me uma mensagem</h4>
                         <p>Entre em contato através do meu e-mail ou pelas redes sociais.</p>
                     </div>
                     <div class="col-md-4">
@@ -176,9 +172,7 @@
             </div>
         </main>
 
-    <?php 
-        include "footer.php";
-    ?>
+    <?php include "includes/footer.php"; ?>
 
     </body>
 </html>

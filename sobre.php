@@ -1,6 +1,4 @@
-<?php 
- include "header.php";
-?>
+<?php include "includes/header.php"; ?>
 
     <section class="mb-5">
         <h2 class="mb-4">Sobre mim</h2>
@@ -8,17 +6,12 @@
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Dados e contactos
+                        Saiba mais sobre mim
                 </button>
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>Nome Completo: Jane Doe <br> 
-                            Endereço: Rua Amadeu de Sousa Cardoso, 50, Lisboa, Portugal<br>
-                            Telefone: +351 975 268 894<br>
-                            Email: janedoe@gmail.com<br>
-                            LinkedIn: linkedin.com/in/janedoe<br>
-                            GitHub: github.com/janedoe</strong>
+                        <strong>Me chamo Hannah Zaine Rios da Silva, tenho 27 anos e sou recém formada em Web Development pela instituição Master D de Lisboa, Portugal. Sou brasileira e já possuo um diploma académico de Bacharelado em Ciências Biológicas. Decidi fazer uma mudança de área profissional depois de perceber que a tecnologia é o futuro do mundo e que usá-lo faz parte do meu dia a dia: descobri uma paixão por usar a minha criatividade para desenvolver sites!</strong>
                     </div>
                 </div>
             </div>
@@ -30,7 +23,9 @@
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>Desenvolvedora Web com mais de 5 anos de experiência em criação de sites e aplicações web responsivas. Experiência sólida em tecnologias front-end e back-end. Incluindo HTML, CSS, JavaScript, React, Node.js e bases de dados SQL e NoSQL. Apaixonada por desenvolvimento de interfaces de utilizador intuitivas e pela otimização de desempenho. Focada em oferecer soluções inovadoras e de alta qualidade.</strong>
+                        <strong>Desenvolvedora Web recém formada. Busco me desenvolver no front-end, onde posso mostrar as minhas ideais e criatividade para os usuários.<br>
+                         Conhecimentos básicos em HTML, CSS, JavaScript, PHP e bases de dados SQL. Agora estou em busca de aprender React e Node.js.<br>
+                         Sou apaixonada por desenvolvimento de interfaces de utilizador intuitivas e pela otimização de desempenho. Focada em oferecer soluções inovadoras e de alta qualidade.</strong>
                     </div>
                 </div>
             </div>
@@ -62,13 +57,10 @@
                 </h2>
                 <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="accordionExample">
                     <div class="accordion-body">
-                        <strong>Linguagens de Programação: HTML, CSS, JavaScript, TypeScript, PHP<br>
-                        Framework/Libraries: React, Angular, Vue.js, Node.js, Express.js<br>
-                        Bases de dados: MongoDB, MySQL, PostgreeSQL<br>
-                        Ferramenta de Versionamento: Git, GitHub, GitLab<br>
-                        Outras Ferramentas: Webpack, Babel, Docker, Jenkis<br>
-                        Metodologias: Agile (scrum), Test-Driven Development (TDD)<br>
-                        Design: Adobe XD, Figma</strong>
+                        <strong>Linguagens de Programação: HTML, CSS, JavaScript e PHP<br>
+                        Framework/Libraries: React, Angular, Bootstrap e Node.js<br>
+                        Bases de dados: MySQL<br>
+                        Ferramenta de Versionamento: Git e GitHub<br></strong>
                     </div>
                 </div>
             </div>
@@ -80,11 +72,10 @@
                 </h2>
                 <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="accordionExample">
                     <div class="accordion-body">
-                        <strong>Licenciatura em Engenharia Informática<br>
-                        Universidade de Lisboa, Lisboa, Portugal<br>
-                        Setembro 2013 - Julho 2017<br>
-                        Principais disciplinas: Desenvolvimento Web, Estruturas de Dados, Bases de Dados, Sistemas Operacionais, Engenharia de Software.<br>
-                        Particiou de projetos de pesquisa focados em otimização de performance de aplicações web.</strong>
+                        <strong>Curso Técnico em Web Development<br>
+                        Master D, Lisboa, Portugal<br>
+                        Outubro 2023 - Abril 2024<br>
+                        Desenvolvi projetos básicos como Portfólio Pessoal; Website para Artista/Banda favorita; Site de vendas de tickets online para concertos em Lisboa.</strong>
                         </div>
                     </div>
                 </div>
@@ -97,8 +88,8 @@
                     <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="accordionExample">
                         <div class="accordion-body">
                             <strong>Portfólio Pessoal<br>
-                            janedoe.dev<br>
-                            Desenvolveu um site de portfólio pessoal para exibir trabalhos e projetos.
+                            github.com/Hannah-Rios<br>
+                            Desenvolvi um site de portfólio pessoal para exibir trabalhos e projetos.
                             Utilizou React para a criação de componentes reutilizáveis e responsivos.
                             Implementou um backend com Node.js e Express.js para gerenciar o conteúdo dinâmico.<br>
                         <hr>
@@ -164,8 +155,6 @@
                                     </div>
                                 </section>
             
-<?php
-    include "footer.php";
-?>
+<?php include "includes/footer.php"; ?>
     </body>
 </html>
