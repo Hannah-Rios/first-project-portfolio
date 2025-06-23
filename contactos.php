@@ -102,28 +102,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
-
-        <section class="mb-5">
-            <h2 class="mb-4">Vamos conversar</h2>
-            <div class="row text-center">
-            <div class="col-md-4">
-                <h4>Envie uma mensagem</h4>
-                <p>Entre em contato através do meu e-mail ou pelas redes sociais.</p>
-            </div>
-            <div class="col-md-4">
-                <h4>Agende uma reunião</h4>
-                <p>Marque uma reunião para discutir seu projeto em detalhes.</p>
-            </div>
-            <div class="col-md-4">
-                <h4>Conecte-se comigo</h4>
-                <p>Siga-me nas redes sociais para acompanhar minhas novidades.</p>
-            </div>
-            </div>
-            <div class="text-center mt-4">
-                <a href="contactos.html" target="_blank" class="btn btn-primary">Entre em contacto</a>
-            </div>
-        </section>
+            </section>    
     </main>
 
 <?php 

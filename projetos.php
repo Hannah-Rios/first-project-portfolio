@@ -54,7 +54,7 @@
             </div>
         </div>
         <div class="text-center mt-4">
-            <a href="contactos.html" target="_blank" class="btn btn-primary">Entre em contacto</a>
+            <a href="contactos.php" target="_blank" class="btn btn-primary">Entre em contacto</a>
         </div>
      </section>
     </main>

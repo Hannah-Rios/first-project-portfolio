@@ -4,17 +4,17 @@
 
         <main class="container my-5">
             <div class="row mb-5">
-                <div class="col-md-5">
-                    <img src="imagens/perfil.jpeg" alt="meu-projeto" class="img-fluid">
-                <div class="col-md-7 align-self-center">
-                    <h1>Olá. Eu sou Hannah Rios e sou web developer!</h1>
-                </div>
+                <div class="col-md-7 center">
+                    <h1>Bem vindo ao meu Portfólio Pessoal!</h1>
                 </div>
             <div class="row mb-5">
                 <div class="col-12">
+                    <div class="col-md-5">
+                        <img src="imagens/perfil.jpeg" alt="meu-projeto" class="img-fluid">
                     <h2>Sobre Mim</h2>
-                    <p> Sou apaixonada por criar expêriencias digitais envolventes e intuitivas. Posso ajudar sua ideia a se tornar realidade!</p>
-                    <a class="btn btn-primary" href="projetos.html" target="_blank">Conheça o meu trabalho</a>
+                        <p> Olá, sou Hannah Rios e sou Web Developer! Sou apaixonada por criar expêriencias digitais envolventes e intuitivas. Posso ajudar sua ideia a se tornar realidade!</p>
+                    <a class="button" href="sobre.php" target="_blank">Mais sobre mim</a>
+                    </div>
                 </div>
             </div>
 
@@ -34,11 +34,11 @@
                 <div class="col-md-4">
                     <h3>Design de UX/UI</h3>
                     <p>Penso no utilizador em cada etapa, projetando layouts limpos e experiências intuitivas.</p>
-                    <img src="imagens/uxui.jpeg" alt="meu-projeto" style="width: 400px; height: auto; margin-top: 10px;">
+                    <img src="imagens/uxui.jpeg" alt="meu-projeto">
                     </div>
                 </div>
                 <div class="text-center mt-4">
-                    <a href="sobre.html" target="_blank" class="btn btn-primary">Saiba mais sobre mim</a>
+                    <a href="projetos.php" target="_blank" class="button">Conheça o meu trabalho</a>
                 </div>
             </section>
 
@@ -93,7 +93,7 @@
                             <li class="mb-3"><strong>Freelancer de Desenvolvimento Web:</strong> Trabalhei com diversos clientes, desde pequenas empresas até startups, entregando soluções personalizadas.</li>
                             <li class="mb-3"><strong>Web Developer Júnior:</strong> Iniciei a minha experiência profissional numa empresa de web development.</li>
                         </ol>
-                        <a href="uploads/HannahSilva-Curriculo.pdf" download class="btn btn-primary">CV Download</a>
+                        <a href="uploads/HannahSilva-Curriculo.pdf" download class="button">CV Download</a>
                     </div>
                 </div>
             </section>
@@ -116,35 +116,24 @@
                 </div>
             </section>
 
-            <section class="mb-5">
-                <h2 class="mb-4">O que dizem os meus clientes</h2>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="imagens/cliente1.jpeg" class="card-img-top" alt="meu-projeto">
+            <section class="section-client mb-5">
+                <h2 class="mb-4 text-center">O que dizem os meus clientes</h2>
+                <div class="grid-clients">
+                    <div class="card-client">
+                                <img src="imagens/cliente1.jpeg" class="card-img" alt="meu-projeto">
                                 <h5 class="card-title">Ana Monteiro</h5>
-                                <p class="card-text" style="color: black;">"Projetos incríveis e únicos"</p>
-                            </div>
-                        </div>
+                                <p class="card-text">"Projetos incríveis e únicos"</p>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="imagens/cliente2.jpeg" class="card-img-top" alt="meu-projeto">
+                    <div class="card-client">
+                                <img src="imagens/cliente2.jpeg" class="card-img" alt="meu-projeto">
                                 <h5 class="card-title">Felipe Nascimento</h5>
-                                <p class="card-text" style="color: black;">"Todos os detalhes pensados cuidadosamente"</p>
-                            </div>
-                        </div>
+                                <p class="card-text">"Todos os detalhes pensados cuidadosamente"</p>
+
                     </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="imagens/cliente3.jpg" class="card-img-top" alt="meu-projeto">
+                    <div class="card-client">
+                                <img src="imagens/cliente3.jpg" class="card-img" alt="meu-projeto">
                                 <h5 class="card-title">Marta Cardoso</h5>
-                                <p class="card-text" style="color: black;">"Profissionalismo em todos os níveis"</p>
-                            </div>
-                        </div>
+                                <p class="card-text">"Profissionalismo em todos os níveis"</p>
                     </div>
                 </div>
                 </section>
@@ -166,7 +155,7 @@
                     </div>
                 </div>
                 <div class="text-center mt-4">
-                    <a href="contactos.html" target="_blank" class="btn btn-primary">Entre em contacto</a>
+                    <a href="contactos.php" target="_blank" class="button">Entre em contacto</a>
                 </div>
             </section>
             </div>

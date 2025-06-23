@@ -10,45 +10,23 @@
         <meta name="author" content="Hannah Rios">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
         <link href="CSS/style.css" rel="stylesheet">
     </head>
 
     <body>
-        <header class="bg-dark text-light py-3">
-            <nav class="navbar bg-body-tertiary fixed-top">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <img src="imagens/logo.png" alt="meu-projeto" class="img-logo" style="width: 100px;">
-                    </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                        <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu Principal</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body">
-                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="index.php">Início</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="projetos.php">Projetos</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="servicos.php">Contactos</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="sobre.php">Sobre</a>
-                                </li>
-                            </ul>
-                            <form class="d-flex mt-3" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                                <button class="btn btn-outline-success" type="submit">Buscar</button>
-                            </form>
-                        </div>
-                    </div>
+        <header class="header">
+            <nav>
+                <div class="logo">
+                    <img src="caminho/para/sua-logo.png" alt="Logo" />
                 </div>
+                <ul class="nav-links">
+                    <li><a href="index.php">Início</a></li>
+                    <li><a href="sobre.php">Sobre</a></li>
+                    <li><a href="projetos.php">Projetos</a></li>
+                    <li><a href="contactos.php">Contactos</a></li>
+                </ul>
             </nav>
         </header>
